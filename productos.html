@@ -17,11 +17,29 @@
         </a>
     </header>
     <nav class="navegacion">
-        <a class="navegacion__enlace navegacion__enlace--activo" href="/productos.html">tienda</a>
+        <a class="navegacion__enlace navegacion__enlace--activo" href="/index.html">tienda</a>
         <a class="navegacion__enlace" href="/nosotros.html">nosotros</a>
     </nav>
     <main class="contenedor">
-        <h1>Productos</h1>
+        <h1>ReactJS</h1>
+        <div class="camisa">
+            <img class="camisa__imagen" src="/img/3.jpg" alt="imagen del producto" >
+            <div class="camisa__contenido">
+                <p>
+                    Descubre nuestra tienda de franelas frontend, donde el estilo y la funcionalidad se fusionan. Con una variedad de diseños que van desde lo minimalista hasta lo vibrante, cada franela está pensada para el desarrollador moderno. Hechas con materiales de calidad y atención al detalle, nuestras franelas te acompañarán cómodamente en tus jornadas de codificación y más allá. ¡Explora nuestra colección y lleva tu pasión por el frontend al siguiente nivel!
+                </p>
+                <form class="formulario">
+                    <select class="formulario__campo">
+                        <option disabled selected>--Seleccionar talla--</option>
+                        <option>Chica</option>
+                        <option>Mediana</option>
+                        <option>Grande</option>
+                    </select>
+                    <input class="formulario__campo" type="number" min="1">
+                    <input class="formulario__submit" type="submit" value="agregar a carrito">
+                </form>
+            </div>
+        </div>
     </main>
     <footer class="footer">
         <p class="footer__texto">Front End Store - Todos los derechos reservados 2024</p>
